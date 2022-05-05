@@ -1,0 +1,3 @@
+%~d0
+cd %~dp0
+java -Dtalend.component.manager.m2.repository="%cd%/../lib" -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp .;../lib/routines.jar;../lib/log4j-to-slf4j-2.12.1.jar;../lib/slf4j-log4j12-1.7.25.jar;../lib/log4j-1.2.17.jar;../lib/commons-collections-3.2.2.jar;../lib/jboss-serialization.jar;../lib/advancedPersistentLookupLib-1.2.jar;../lib/jxl.jar;../lib/slf4j-api-1.7.25.jar;../lib/dom4j-2.1.1.jar;../lib/mysql-connector-java-5.1.30-bin.jar;../lib/trove.jar;../lib/crypto-utils.jar;dataframe_0_1.jar; pi.dataframe_0_1.DataFrame  %*
